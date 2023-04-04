@@ -1,0 +1,146 @@
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  /* header----*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-right: 100px;
+    position:absolute;
+    align-items: center
+    ;
+}
+header a{
+   width: 75%;
+   margin-left: 120px;
+}
+header img{
+    position: unset;
+
+left: 226.77px;
+top: 50px;
+}
+header ul{
+    margin-right: 100px;
+    
+width: 25%;
+
+    font-weight: bold;
+   color: #FFFFFF;
+   list-style: none;
+    justify-content: space-between;
+    display: flex;
+  }
+header li{
+
+    height: 15px;
+left: 43.59%;
+right: 37.18%;
+top: calc(50% - 15px/2);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+}
+ /* banner----*/
+
+.banner{
+background-image: url("images/back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  flex-direction: column-reverse;
+
+}
+.banner-header button{
+display: flex;
+position: absolute;
+background: #C271FF;
+border-radius: 22px;
+
+color:#FFFFFF;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+
+padding: 13px 20px 13px 20px;
+text-align: center;
+filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+.banner-header .banner-menu{
+    position: absolute;
+    display: flex;
+}
+.banner-menu p{
+   
+    display: flex;
+    padding: 0 0 40px 40px;
+    color: #FFFFFF;
+}
+.banner-header h1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+text-align: center;
+color: #FFFFFF;
+padding: 55px 0 0 0;
+
+}
+.banner .banner-container h2{
+    display: flex;
+    position: absolute;
+    text-indent: 10px;
+    justify-content: center;
+    color: white;
+height: 40px;
+left: 41.94%;
+right: 39.93%;
+top: calc(50% - 40px/2 + 104.5px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+color: #C271FF;
+
+}
+.banner-container{
+    display: flex; 
+    flex-direction: column;  
+}
+.banner-container img{
+    border-radius: 50%;
+    top: 400px;
+
+}
+.banner-container .banner-p{
+    display: flex;
+    position: unset;
+    flex-direction: row;
+}
